@@ -10,6 +10,7 @@ func (l List[T]) Empty() bool {
 	return len(l) == 0
 }
 
+// Linear Search
 func (l List[T]) Contains(obj T) bool {
 	for _, elem := range l {
 		if elem == obj {

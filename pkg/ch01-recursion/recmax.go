@@ -1,13 +1,13 @@
 package ch01
 
-type Ordered interface {
-	~string | ~float64 | ~int
-}
+import (
+	"grokking/pkg/ch00-intro"
+)
 
-func RecMax[T Ordered](items []T) T {
+func RecMax[T ch00.Ordered](items []T) T {
 	if len(items) == 1 {
 		return items[0]
-	} else if othermax := RecMax[T](items[1:]); items[0] > othermax {
+	} else if othermax := RecMax(items[1:]); items[0] > othermax {
 		return items[0]
 	} else {
 		return othermax

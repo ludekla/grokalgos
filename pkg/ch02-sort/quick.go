@@ -1,6 +1,10 @@
 package ch02
 
-func QuickSort[T Ordered](items []T) []T {
+import (
+	"grokking/pkg/ch00-intro"
+)
+
+func QuickSort[T ch00.Ordered](items []T) []T {
 	citems := make([]T, 0, len(items))
 	if len(items) < 2 {
 		copy(citems, items)
