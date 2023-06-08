@@ -1,6 +1,8 @@
 package ch04
 
-import "math"
+import (
+	"math"
+)
 
 type Edge struct {
 	Target string
