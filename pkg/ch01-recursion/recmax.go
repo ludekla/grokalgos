@@ -1,7 +1,7 @@
 package ch01
 
 import (
-	"grokking/pkg/ch00-intro"
+	"grokking/pkg/ch00-search"
 )
 
 func RecMax[T ch00.Ordered](items []T) T {

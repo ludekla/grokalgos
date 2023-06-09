@@ -12,7 +12,7 @@ func variance(vals []float64) float64 {
 	m := mean(vals)
 	var sum float64
 	for _, val := range vals {
-		sum += (val - m) *(val - m)
+		sum += (val - m) * (val - m)
 	}
 	return sum / float64(len(vals))
 }

@@ -50,7 +50,7 @@ func (nb NeighboursRegressor) Score(points []Point, values []float64) float64 {
 	tss := variance(values)
 	preds := nb.Predict(points)
 	rss := mse(values, preds)
-	return 1.0 - rss / tss
+	return 1.0 - rss/tss
 }
 
 // Implementation of sort.Interface
