@@ -1,10 +1,10 @@
 package main
 
 import (
-	"fmt"
 	"flag"
+	"fmt"
 
-	"grokking/pkg/ch05-greedy"
+	"grokalgos/pkg/ch05-greedy"
 )
 
 var verbose = flag.Bool("v", false, "verbose, ie show grid")

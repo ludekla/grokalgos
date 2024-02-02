@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"math/rand"
 
-	"grokking/pkg/ch02-sort"
+	"grokalgos/pkg/ch02-sort"
 )
 
 func main() {

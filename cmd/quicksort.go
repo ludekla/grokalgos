@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"math/rand"
 
-	"grokking/pkg/ch02-sort"
+	"grokalgos/pkg/ch02-sort"
 )
 
 func main() {
@@ -18,6 +18,5 @@ func main() {
 	fmt.Println(items)
 	items = ch02.QuickSort[int](items)
 	fmt.Println(items)
-
 
 }

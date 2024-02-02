@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"grokking/pkg/ch01-recursion"
+	"grokalgos/pkg/ch01-recursion"
 )
 
 func main() {

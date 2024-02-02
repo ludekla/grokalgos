@@ -3,10 +3,10 @@ package main
 import (
 	"fmt"
 
-	"grokking/pkg/ch00-intro"
+	"grokalgos/pkg/ch00-intro"
 )
 
-func main()  {
+func main() {
 	fmt.Printf("0. Binary Search: ")
 	N, j := 10_000_000, 10_000_001
 
@@ -21,4 +21,3 @@ func main()  {
 		fmt.Printf("cannot find %d\n", j)
 	}
 }
-	

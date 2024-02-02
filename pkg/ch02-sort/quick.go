@@ -1,7 +1,7 @@
 package ch02
 
 import (
-	"grokking/pkg/ch00-search"
+	"grokalgos/pkg/ch00-search"
 )
 
 func QuickSort[T ch00.Ordered](items []T) []T {

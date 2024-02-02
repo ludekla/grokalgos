@@ -3,7 +3,7 @@ package ch04
 import (
 	"fmt"
 
-	"grokking/pkg/ch00-search"
+	"grokalgos/pkg/ch00-search"
 )
 
 func BreadthFirstSearch(graph map[string][]string) (string, error) {
